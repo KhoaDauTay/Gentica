@@ -5,6 +5,7 @@ class Book(models.Model):
     picture = models.ImageField()
     author = models.CharField(max_length = 30, default='Khoa')
     email = models.EmailField(blank = True)
-    describe = models.TextField(default = 'DataFlair Django tutorials')
+    describe = models.TextField(default = 'Sach Hay')
+    price = models.FloatField()
     def __str__(self):
         return self.name

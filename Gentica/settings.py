@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'Gentica.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dc8ah9t4ugvsma',
-        'USER':'xslgtzhfojssly',
-        'PASSWORD':'e4d3481e195ba8a04886b3da543599c2d397bad1199443cea2d36db1979e835e',
-        'HOST':'ec2-52-72-221-20.compute-1.amazonaws.com',
+        'NAME': 'dflutcosti8cp9',
+        'USER':'baxfywunjmayme',
+        'PASSWORD':'d658ffb31003cd3fc33da83c842b007c25f19b901df9a5a2ab0846e083c78bcb',
+        'HOST':'ec2-34-195-169-25.compute-1.amazonaws.com',
         'PORT':'5432'
     }
 }
