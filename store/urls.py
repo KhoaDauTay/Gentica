@@ -9,7 +9,6 @@ urlpatterns = [
     path('delete/<int:book_id>', views.delete_book),
     path('search/', views.SearchResultsView.as_view(), name='search_results'),
 ]
-#DataFlair
 if DEBUG:
     urlpatterns += static(STATIC_URL, document_root = STATIC_ROOT)
     urlpatterns += static(MEDIA_URL, document_root = MEDIA_ROOT)
