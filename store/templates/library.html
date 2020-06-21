@@ -39,6 +39,8 @@
                 <p class="card-text">{{ book.describe }}</p>
                 <div class="card-footer bg-transparent border-dark">
                     <p class="card-title">{{book.author}}</p>
+                    <p class="card-title">{{book.price}}</p>
+                    <p class="card-title">{{book.description}}</p>
                     <a href="update/{{book.id}}" class="btn btn-warning" id='{{book.id}}'>edit</a>
                     <a href="delete/{{book.id}}" class="btn btn-danger" id='{{book.id}}'>delete</a>
                 </div>
