@@ -1,1 +1,1 @@
-web: gunicorn myprohect.wsgi --log-file -
+web: gunicorn Gentica.wsgi --log-file -
