@@ -25,7 +25,7 @@ SECRET_KEY = '69z2dxbwcarh)b_^pb7m7*09c68j((w3ruq7n_0hm@6*br2#zr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','geneticawebinter.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','geneticabook.herokuapp.com']
 
 
 # Application definition
