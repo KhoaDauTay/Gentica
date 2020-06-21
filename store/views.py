@@ -25,7 +25,7 @@ def update_book(request, book_id):
         book_sel = Book.objects.get(id = book_id)
     except Book.DoesNotExist:
         return redirect('index')
-    book_form = BookCreate(request.POST or None, instance = book_sel)
+    book_form = BookCreate(request.POST ,request.FILES, instance = book_sel)
     if book_form.is_valid():
        book_form.save()
        return redirect('index')
