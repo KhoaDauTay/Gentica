@@ -12,6 +12,8 @@
         <a href="{% url 'admin:index' %}" class='navbar-link btn-lg' style="background-color:#FFCC33;color:#000000;">Admin</a>
         <a href="{% url 'upload-book' %}" class="navbar-link btn-lg" style="background-color:#FFCC33;color:#000000;">Upload Books</a>
     </nav>
+
+    <br> {% block content %}
     <div class="text-center white-text mx-5 wow fadeIn">
         <h1 class="mb-4">
             <strong>KHOA STORE</strong>
@@ -25,8 +27,6 @@
         </form>
 
     </div>
-    <br> {% block content %}
-
     <div class="card-columns">
         {% for book in shelf %}
         <div class="card" style="width: 18rem;">
